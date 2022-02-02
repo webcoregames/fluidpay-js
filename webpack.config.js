@@ -15,6 +15,7 @@ module.exports = {
   resolve: {
     extensions: ['.ts', '.js']
   },
+  target: 'node',
   output: {
     library: 'fluidpay-js',
     libraryTarget: 'umd',
